@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "endstone-sculk-epidemic"
+version = "1.0.0"
+description = "Endstone server plugin for the Sculk Plague Epidemic scenario (Minecraft Bedrock 1.26.51 / 1.21.50+)"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Erasyl & 2d3lbek", email = "server@example.com" }
+]
+dependencies = [
+    "endstone>=0.11.0"
+]
+
+[project.entry-points.endstone]
+sculk-epidemic = "endstone_sculk_epidemic.plugin:SculkEpidemicPlugin"
+
+[tool.setuptools.packages.find]
+where = ["src"]

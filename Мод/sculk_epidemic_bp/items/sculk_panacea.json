@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sculk:sculk_panacea",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.potion"
+      }
+    },
+    "components": {
+      "minecraft:icon": "sculk_panacea",
+      "minecraft:max_stack_size": 16,
+      "minecraft:display_name": {
+        "value": "item.sculk:sculk_panacea.name"
+      },
+      "minecraft:glint": true,
+      "minecraft:use_modifiers": {
+        "use_duration": 2.0,
+        "movement_modifier": 0.35
+      },
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation_modifier": 2.0,
+        "can_always_eat": true,
+        "using_converts_to": "minecraft:glass_bottle"
+      }
+    }
+  }
+}

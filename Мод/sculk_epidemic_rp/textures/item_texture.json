@@ -1,0 +1,21 @@
+{
+  "resource_pack_name": "sculk_epidemic_rp",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "sculk_vaccine": {
+      "textures": "textures/items/sculk_vaccine"
+    },
+    "sculk_panacea": {
+      "textures": "textures/items/sculk_panacea"
+    },
+    "lore_book_plague": {
+      "textures": "textures/items/lore_book_plague"
+    },
+    "lore_book_punishment": {
+      "textures": "textures/items/lore_book_punishment"
+    },
+    "lore_book_piglin": {
+      "textures": "textures/items/lore_book_piglin"
+    }
+  }
+}

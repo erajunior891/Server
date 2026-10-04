@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Sculk Epidemic RP",
+    "description": "Resource Pack for Sculk Plague Epidemic Scenario (Minecraft 1.26.51 / 1.21.50+)",
+    "uuid": "4d40c592-7815-468c-8e69-9f50ddfe8950",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 50]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "930b02b0-63aa-409a-a6c3-5e2b78e85918",
+      "version": [1, 0, 0]
+    }
+  ]
+}

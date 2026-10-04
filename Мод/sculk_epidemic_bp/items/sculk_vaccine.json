@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sculk:sculk_vaccine",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.potion"
+      }
+    },
+    "components": {
+      "minecraft:icon": "sculk_vaccine",
+      "minecraft:max_stack_size": 16,
+      "minecraft:display_name": {
+        "value": "item.sculk:sculk_vaccine.name"
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.35
+      },
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation_modifier": 0.0,
+        "can_always_eat": true,
+        "using_converts_to": "minecraft:glass_bottle"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+# Endstone Bedrock Dedicated Server (не включать в репозиторий)
+endstone-0.11.12-windows-x86_64/
+bedrock_server/
+server/
+
+# Сборка плагинов Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+*.whl
+.venv/
+venv/
+env/
+
+# C++ Build artifacts
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+*.ninja
+*.obj
+*.o
+*.pdb
+*.idb
+*.ilk
+out/
+
+# IDE и временные файлы
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Лор/.obsidian/workspace.json

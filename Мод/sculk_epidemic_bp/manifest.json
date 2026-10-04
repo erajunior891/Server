@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Sculk Epidemic BP",
+    "description": "Behavior Pack for Sculk Plague Epidemic Scenario (Minecraft 1.26.51 / 1.21.50+)",
+    "uuid": "921349a2-1fd1-47d8-a74e-6681fa481c97",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 50]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "40e244b7-bfd3-4517-86a4-9c4c1742484a",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "4d40c592-7815-468c-8e69-9f50ddfe8950",
+      "version": [1, 0, 0]
+    }
+  ]
+}

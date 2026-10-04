@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "sculk:sculk_panacea_crafting"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:potion",
+        "data": 37
+      },
+      {
+        "item": "minecraft:potion",
+        "data": 21
+      }
+    ],
+    "result": {
+      "item": "sculk:sculk_panacea",
+      "count": 1
+    }
+  }
+}
