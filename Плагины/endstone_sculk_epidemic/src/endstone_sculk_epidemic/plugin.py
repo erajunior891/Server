@@ -63,13 +63,16 @@ class SculkEpidemicPlugin(Plugin):
         # Регистрация периодического тикера чумы (каждые 2.5 секунды = 50 тиков)
         self.server.scheduler.run_task(self, self._tick_task, delay=40, period=50)
 
+        # Периодическое автосохранение базы каждые 30 секунд (600 тиков) для защиты от падений
+        self.server.scheduler.run_task(self, lambda: self.manager.save(), delay=600, period=600)
+
         # Регистрация слушателей событий
         self.register_events(self)
         self.logger.info("§a[Sculk Epidemic] Плагин успешно включен! Лор и механики инициализированы.§r")
 
     def on_disable(self) -> None:
         if hasattr(self, "manager"):
-            self.manager.save()
+            self.manager.save(force=True)
         self.logger.info("§e[Sculk Epidemic] Плагин выключен, данные сохранены.§r")
 
     def _tick_task(self) -> None:
