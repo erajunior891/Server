@@ -1,0 +1,33 @@
+name: "Отчёт об ошибке (Bug Report)"
+description: "Сообщить о баге в работе аддона или плагина Endstone"
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Спасибо за помощь в улучшении сервера Sculk Epidemic SMP!
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание ошибки
+      description: Чёткое и лаконичное описание того, что пошло не так.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия Minecraft Bedrock / Endstone
+      placeholder: "например: Bedrock 1.26.51, Endstone 0.11.12"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги для воспроизведения
+      description: Как воспроизвести ошибку?
+      placeholder: |
+        1. Войти в биом Deep Dark
+        2. Получить урон от скалка
+        3. Ввести команду /sculk
+    validations:
+      required: true

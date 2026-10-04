@@ -1,0 +1,23 @@
+name: "Идея / Предложение (Feature Request)"
+description: "Предложить идею для сюжета, механики или нового предмета"
+title: "[IDEA]: "
+labels: ["enhancement", "lore"]
+body:
+  - type: textarea
+    id: idea_desc
+    attributes:
+      label: Описание идеи
+      description: Подробно опишите ваше предложение для сервера или мода.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Категория идеи
+      options:
+        - "Сюжет и Лор (Сценарии, книги)"
+        - "Механика чумы и плагины"
+        - "Новые предметы и рецепты крафта"
+        - "Структуры и левел-дизайн"
+    validations:
+      required: true
